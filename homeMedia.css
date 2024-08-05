@@ -1,0 +1,43 @@
+@media screen and (max-width:1500px) {
+   .navbar-nav{
+    padding-left: 25%;
+}   
+}
+@media screen and (max-width:1500px) {
+    button{
+        width: 30vh;
+    }
+}
+@media screen and (max-width:930PX) {
+    .button-div, .model-3, .text-div{
+        left: 20%;
+
+    }
+}
+@media screen and (max-width:1340px) {
+    .cyberText{
+        font-family: "Playwrite HR Lijeva", cursive;
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:700px){
+    button{
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+
+    .cyber-div{
+        position: absolute;
+        left: 10%;
+    }
+
+    .text-div{
+        will-change: 30px;
+        font-size: 16px;
+    }
+    body{
+
+    }
+
+}

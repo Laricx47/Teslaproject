@@ -1,0 +1,125 @@
+p{
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-image: url(Image/Homepage-Model-3-Desktop-LHD-v2.avif);
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    align-items: baseline;
+    padding-left: 50px;
+}
+.navbar-nav{
+    padding-left: 35%;
+}
+.icons{
+    margin-left: 35%;
+    gap: 10px;
+}
+.model-3{
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    width: 500px;
+    text-align: center;
+}
+.gray{
+    color: rgb(65, 64, 64);
+}
+.button-div{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    gap: 5%;
+}
+button{
+    width: 300px;
+}
+.model-y{
+    background-image: url(Image/Homepage-Model-Y-Desktop-Global.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-div{
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    width: 500px;
+    text-align: center;
+}
+.model-x{
+    background-image: url(Image/Homepage-Model-X-Desktop-v2.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.model-s{
+    background-image: url(Image/Homepage-Model-S-Desktop-v2.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.cyber-truck{
+    background-image: url(Image/Homepage-Cybertruck-Desktop.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.cyberText{
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+.cyber-div{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 500px;
+    text-align: center;
+}
+.solar-panel{
+    background-image: url(Image/Homepage-SolarPanels-01-Desktop.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.solar-roof{
+    background-image: url(Image/Homepage-SolarRoof-Desktop-Global.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.powerwall{
+    background-image: url(Image/Homepage-Powerwall-01-Desktop.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.accessories{
+    background-image: url(Image/Homepage-Accessories-Desktop-NA-APAC.avif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.accessories1{
+    position: absolute;
+    top: 85%;
+    left: 42%;
+    gap: 5%;
+}
+.footer-div{
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    font-size:11px;
+}
+footer{
+    background-color: black;
+}

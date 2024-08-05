@@ -1,0 +1,238 @@
+p{
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    align-items: baseline;
+    padding-left: 50px;
+    z-index: 10;
+    position: relative;
+}
+.navbar-nav{
+    padding-left: 35%;
+}
+.icons{
+    margin-left: 35%;
+    gap: 10px;
+}
+.supercharger{
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    width: 500px;
+    text-align: center;
+}
+.button-div{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    gap: 5%;
+    width: 30%;
+}
+.background-video{
+    position: absolute;
+    width: 50%;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+.location{
+    height: 100vh;
+    padding-top: 0%;
+
+}
+.first-div{
+    width: 25%;
+}
+.div-text{
+    font-size: 13px;
+    margin-bottom: 180%;
+}
+.map{
+    width: 100%;
+    height: 100vh;
+}
+.button2{
+    border: solid 3px;
+    background-color: white;
+    border-color: black;
+    height: 40px;
+    font-weight:500;
+    color: #111111;
+    border-radius: 4px;
+    width: 200px;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+}
+.freedom-parent{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.freedom-child{
+    gap: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.exprience{
+    width: 30%;
+    padding-left: 30px;
+}
+.exprience2{
+    font-size: 14px;
+}
+ 
+.slider {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.carousel{
+    padding-left: 20%;
+    padding-right: 20%;
+}  
+.slides {
+   width: 100%;
+   height: auto;
+   display: flex;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+   -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.video-text-div{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.host-div{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.last-text{
+    font-size: 12px;
+}
+footer{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: black;
+    color: white;
+}
+.button3{
+    border: solid 3px;
+    background-color: black;
+    border-color: white;
+    height: 40px;
+    font-weight:500;
+    color: white;
+    border-radius: 4px;
+    width: 200px;
+}
+.button3:hover{
+    background-color: white;
+    color: black;
+}
+.pop-up{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: pop ease 3s;
+    animation-duration: 1s;
+    animation-direction:normal;
+}
+@keyframes pop {
+    30%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+.pop-up2:hover{
+    animation: pop-2 ease 3s;
+    animation-duration: 3s;
+    animation-direction:normal;
+}
+@keyframes pop-2 {
+    30%{
+        transform:translateY(20px);
+        opacity: 0;
+    }
+
+    
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
